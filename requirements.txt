@@ -1,4 +1,4 @@
-autogluon==1.1.1
+autogluon
 scikit-learn==1.5.2
 numpy==1.24.0
 pandas==2.2.2
