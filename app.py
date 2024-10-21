@@ -28,7 +28,7 @@ st.markdown('<p class="font">Upload Excel Files</p>', unsafe_allow_html=True)
 file_upload = st.file_uploader('Upload File(s)', type=['csv'], accept_multiple_files=True,
                                label_visibility='hidden')
 
-model_save_path = '/models/models/'
+model_save_path = '/models/'
 predictor = TabularPredictor.load(model_save_path)
 label='kpb_activity_code'
 
