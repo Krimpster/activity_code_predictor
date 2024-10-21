@@ -28,9 +28,7 @@ st.markdown('<p class="font">Upload Excel Files</p>', unsafe_allow_html=True)
 file_upload = st.file_uploader('Upload File(s)', type=['csv'], accept_multiple_files=True,
                                label_visibility='hidden')
 
-root_dir_path = os.getcwd()
-root_dir_path = os.path.abspath(os.path.split(root_dir_path)[0])
-model_save_path = rf'{root_dir_path}/models/models/'
+model_save_path = '/models/models/'
 predictor = TabularPredictor.load(model_save_path)
 label='kpb_activity_code'
 
