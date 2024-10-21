@@ -1,6 +1,6 @@
 autogluon
 scikit-learn==1.5.2
-numpy==1.26.0
+numpy
 pandas==2.2.2
 jupyter == 1.1.1
 tqdm==4.66.5
